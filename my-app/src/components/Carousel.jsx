@@ -3,8 +3,8 @@ import React from "react";
 
 function Carousel() {
 
-    return 
-        <div > 
+    return (
+      <div > 
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -19,6 +19,8 @@ function Carousel() {
           </div>
         </div>
       </div>
+    );
+        
 
 }
 
