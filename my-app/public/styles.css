@@ -10,7 +10,18 @@ body{
     background-color: #25CCF7;
 }
 
+.navbar{
+    background-color: #16e0d3;
+    height: 50px;
+}
 
+.footer{
+    background-color: #16e0d3;
+    height: 30px;   
+    text-align: center;
+    position:relative;
+    bottom: 0;
+}
 
 
 /****************************************** ID *******************************************/
