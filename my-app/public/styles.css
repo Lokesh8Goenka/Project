@@ -4,17 +4,19 @@ body{
     margin: 0;
     padding: 0;
     background-color: #25CCF7;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 button{
-    background-color: #19fcac;
+    background-color: #16e0d3;
     border: none;
     border-radius: 30px;
     color: #ffff;
-    position: relative;
-    top: 180px;
-    left: 200px;
+    text-align: center;
+}
+
+td{
+    padding-left: 20px;
 }
 
 /****************************************** Class *******************************************/
@@ -25,24 +27,25 @@ button{
 
 .navbar{
     background-color: #16e0d3;
-    height: 50px;
-    width: 100vw;
 }
 
 .main{
     background-color: #25ccf7;
+    opacity: 1;
+    background-image:  radial-gradient(#ffffff 0.9px, transparent 0.9px), radial-gradient(#ffffff 0.9px, #25ccf7 0.9px);
+    background-size: 36px 36px;
+    background-position: 0 0,18px 18px;
     margin: 0;
     height: 88vh;
-    width: 100vw;
 }
 .heading{
     border-color: #000000;
     color: white;
-    position: relative;
     font-family: 'Shantell Sans', cursive;
     font-size: 150px;
-    top: 100px;
-    left: 200px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
     text-shadow:
     /* White glow */
     0 0 7px #fff,
@@ -50,13 +53,24 @@ button{
     0 0 42px #0fa,
     0 0 102px #0fa;
 }
+
+.tools{
+    background-color: rgba(37, 204, 247, .3);
+    height: 100vh;
+}
+
+.row{
+
+}
+
+.col{
+    width: 100px;
+}
+
 .footer{
     background-color: #16e0d3;
     height: 30px;   
     text-align: center;
-    position:relative;
-    bottom: 0;
-    width: 100vw;
 }
 
 
