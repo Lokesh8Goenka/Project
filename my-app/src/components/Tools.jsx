@@ -8,14 +8,25 @@ const h1Style = {
 }
 
 const imgStyle = {
-    height: "20vh",
+    height: "40vh",
     objectFit: "contain",
-    paddingLeft: "10px"
+    paddingLeft: "150px"
 }
 
 function Tools() {
     return(
         <div className="tools">
+            {/* <table>
+                <th>Tools</th>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </table> */}
             <h1 style={h1Style}>Tools</h1>
             <div className="row">
                 <div className="col"><img style={imgStyle} src="../images/dodle.png" alt="" /></div>

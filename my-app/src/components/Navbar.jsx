@@ -1,18 +1,26 @@
 import React from "react";
 
-const imgStyle = {
+const h1Style = {
   height: "10vh",
   objectFit: "contain",
-  paddingLeft: "10px"
+  paddingLeft: "100px",
+  color: "#13183e",
+}
+
+const btnStyle = {
+  borderRadius: "25px",
+  height: "45px",
+  width: "100px",
+  fontSize: "20px",
+  marginRight: "200px"
 }
 
 function Navbar() {
 
     return (
       <div className="navbar">
-        <img style={imgStyle} src="./images/logo.png" alt="Logo" />
-        <img style={imgStyle} src="./images/option.png" alt="options/features" />
-        <img style={imgStyle} src="./images/user.png" alt="User Account" />
+        <h1 style={h1Style}>Cl!ckl</h1>
+        <button style={btnStyle}>Login</button>
       </div>
     );
 }
