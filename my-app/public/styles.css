@@ -40,6 +40,17 @@ h1{         /*For all the h1 tags*/
     font-family: 'Pacifico', cursive;
 }
 
+<<<<<<< HEAD
+textarea{
+    overflow: hidden;
+}
+
+textarea:hover{
+    box-shadow: 0 4px 15px 0 rgba(205,52,185, 0.75);
+}
+
+textarea:focus{
+=======
 h2{         /*For all the h2 tags*/
     margin:  auto;
     text-align: center;
@@ -77,6 +88,7 @@ textarea:hover{     /*For the text area ON HOVER*/
 }
 
 textarea:focus{         /*For the text area ON FOCUS*/
+>>>>>>> 62a54df065f95e2fb4cc131c785a27538346d512
     box-shadow: 0 4px 15px 0 rgba(255, 255, 255, 1);
 }
 
@@ -84,6 +96,13 @@ textarea:focus{         /*For the text area ON FOCUS*/
 /****************************************** Class *******************************************/
 
 
+<<<<<<< HEAD
+.navbar{
+    background-color: #fff;
+}
+
+.image{
+=======
 .navbar{             /*For the navbar class at the top*/
     background-color: #13183e;
 }
@@ -101,6 +120,7 @@ textarea:focus{         /*For the text area ON FOCUS*/
 }
 
 .image{     /*For the image class in the home (the gif)*/
+>>>>>>> 62a54df065f95e2fb4cc131c785a27538346d512
     position: absolute;
     top: 20px;
     right: 5vw;
@@ -110,7 +130,59 @@ textarea:focus{         /*For the text area ON FOCUS*/
 .explore{           /*For the button in the home component*/
     margin-left: 200px;
     background: rgb(255,110,73);
-    background: linear-gradient(90deg, rgba(255,110,73,1) 0%, rgba(205,52,185,1) 100%);
+    /* background: linear-gradient(90deg, rgba(255,110,73,1) 0%, rgba(205,52,185,1) 100%); */
+}
+
+.explore:hover{
+    transition: 0.1s  ease-in;
+    box-shadow: 0 4px 15px 0 rgba(19, 24, 62, 1);
+}
+
+#popup-1.popup-content{
+    background-color: #ffffff;
+    border: none;
+    height:auto;
+}
+
+.popup-content{
+    margin: 0;
+    padding: 0;
+    width: 30vw;
+    height:auto;
+    border-radius: 25px;
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+}
+
+.popup-content h2{
+    margin: 10px;
+    font-size: 40px;
+    border-radius: 15px;
+    font-family: 'Shantell Sans', cursive;
+    background: #ffffff ;
+    color: black;
+
+}
+.popup-content button{
+    font-size : 35px;
+    color: #fff;
+}
+
+.popup-content button{
+    background-color: #fff;
+    font-size: 34px;
+    color: #cd34b9 ;
+}
+
+.popup-content button:hover{
+    transition: 0.1s ease-in;
+    font-size: 38px;
+}
+
+.features{
+    background-color: rgba(38, 206, 247,0.2);
+    height: 100vh;
 }
 
 /* .explore:hover{
@@ -200,6 +272,28 @@ textarea:focus{         /*For the text area ON FOCUS*/
 .submitBtn{          /*For the submit button in Summary component*/
     color: #fff;
     background: linear-gradient(90deg, rgba(255,110,73,1) 0%, rgba(205,52,185,1) 100%);
+<<<<<<< HEAD
+}
+
+
+
+.login{
+    height: 100vh;
+    background-color: #fff;
+}
+
+.summary{
+    height: 100vh;
+    background-color: #13183e;
+    text-align: center;
+}
+
+
+.submitBtn{
+    color: #fff;
+    background: linear-gradient(90deg, rgba(255,110,73,1) 0%, rgba(205,52,185,1) 100%);
+=======
+>>>>>>> 62a54df065f95e2fb4cc131c785a27538346d512
     /* box-shadow: 0 4px 15px 0 rgba(205,52,185, 0.75); */
     border-radius: 25px;
     height: 20vh;
@@ -208,12 +302,20 @@ textarea:focus{         /*For the text area ON FOCUS*/
     font-family: 'Shantell Sans', cursive;
     margin-top: 15px;
 }
+<<<<<<< HEAD
+.submitBtn:hover{
+=======
 .submitBtn:hover{           /*For the submit button ON HOVER in Summary component*/
+>>>>>>> 62a54df065f95e2fb4cc131c785a27538346d512
     transition: 0.5s ease;
     /* box-shadow: 0 4px 15px 0 rgba(255, 255, 255, 1); */
     box-shadow: 0 4px 15px 0 rgba(205,52,185, 0.75);
 }
+<<<<<<< HEAD
+.submitBtn:focus{
+=======
 .submitBtn:focus{           /*For the submit button ON FOCUS in Summary component*/
+>>>>>>> 62a54df065f95e2fb4cc131c785a27538346d512
     box-shadow: 0 4px 15px 0 rgba(255, 255, 255, 1);
 }
 
@@ -225,11 +327,14 @@ textarea:focus{         /*For the text area ON FOCUS*/
 
 .footer{            /*For the Footer component*/
     color: #ffff;
-    background-color: #13183e;
+    background-color: #6c49ed;
     height: 30px;   
     text-align: center;
 }
 
+<<<<<<< HEAD
+/****************************************** ID *******************************************/
+=======
 
 
 /****************************************** ID *******************************************/
@@ -242,6 +347,7 @@ textarea:focus{         /*For the text area ON FOCUS*/
 }
 
 
+<<<<<<< HEAD
 
 
 /*For loading*/
@@ -273,3 +379,6 @@ textarea:focus{         /*For the text area ON FOCUS*/
         transform: rotate(360deg);
     }
 }
+=======
+>>>>>>> 62a54df065f95e2fb4cc131c785a27538346d512
+>>>>>>> be730c0e5aa34b7d18920757d336d08016971348

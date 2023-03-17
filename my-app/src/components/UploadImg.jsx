@@ -22,7 +22,11 @@ function App() {
       .then(data => setOutput(data))
       .catch(error => console.log(error));
   };  
+<<<<<<< HEAD
   
+=======
+  //new codes
+>>>>>>> be730c0e5aa34b7d18920757d336d08016971348
 
   return (
     <div>

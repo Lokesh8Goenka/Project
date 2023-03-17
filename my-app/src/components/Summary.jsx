@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState} from 'react';
 import UploadImg from "./UploadImg";
 import Progressbar from './Progress_bar';
@@ -26,14 +27,23 @@ const handleSubmit = async (event) => {
   const resultText = await response.json();
 
   setResultText(JSON.stringify(resultText));
+=======
+import React from 'react';
+>>>>>>> be730c0e5aa34b7d18920757d336d08016971348
 
+const sumStyle = {
+    fontFamily: "'Shantell Sans', cursive",
+    color: "#fff",
+    marginLeft: "10vw",
+    paddingTop: "10vh",
+    fontSize: "6vw"
 }
-};
 
-const handleChange = event => {
-  setInputText(event.target.value);
-};
+function handleSubmit(e) {
+    // Prevent the browser from reloading the page
+    e.preventDefault();
 
+<<<<<<< HEAD
 const [progress, setProgress] = useState("0")
 
 function handelProgress() {
@@ -64,9 +74,40 @@ return (
                         onChange={handleChange}
                     /> <br /><br />
                     <button className="submitBtn" type="submit">Summarize</button> <br />
+=======
+    // Read the form data
+    const form = e.target;
+    const formData = new FormData(form);
+
+    // You can pass formData as a fetch body directly:
+    // fetch('/some-api', { method: form.method, body: formData });
+
+    // Or you can work with it as a plain object:
+    const formJson = Object.fromEntries(formData.entries());
+    console.log(formJson);
+}
+
+function Summary() {
+    return(
+        <div className="summary">
+                <h1 style={sumStyle}>Summary...</h1>
+
+                <form method="post" onSubmit={handleSubmit}>
+                <button className="submitBtn" type="submit">Summarize</button>
+                <label style={{color: "#fff", float: "right", marginRight: "10vw"}}>
+                    <textarea
+                    name="postContent"
+                    defaultValue="Your Text Here"
+                    rows={18}
+                    cols={70}
+                    />
+                </label>
+                <hr />
+                
+>>>>>>> be730c0e5aa34b7d18920757d336d08016971348
                 </form>
-            </div>
         </div>
+<<<<<<< HEAD
         <Progressbar bgcolor="#ff00ff" progress={progress}  height={30} />
         <div className="row">
             <div className="col">
@@ -81,6 +122,9 @@ return (
 </div>
   
 );
+=======
+    );
+>>>>>>> be730c0e5aa34b7d18920757d336d08016971348
 }
 
-export default MLModelInput;
+export default Summary;
